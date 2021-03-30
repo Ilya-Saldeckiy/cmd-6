@@ -127,7 +127,7 @@ li{
     background: url('../img/header_bg.jpg') 50% 100% no-repeat;
     background-position: top;
     /* background-size: cover; */
-    padding-bottom: 155px;
+    padding-bottom: 149px;
 }
 
 .header-phone-position{
@@ -355,7 +355,7 @@ li{
 
 .plan__position{
     display: flex;
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 }
 
 .plan-text__decoration{
@@ -390,7 +390,7 @@ li{
 
 .attention-text{
     font-size: 14px;
-    line-height: 32px;
+    line-height: 1;
     font-weight: 400;
     color: #777777;
     padding-left: 39px;
@@ -509,7 +509,7 @@ li{
 
 .servizio__block{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 30px;
     padding-right: 6px;
     margin-bottom: 32px;
@@ -896,6 +896,7 @@ li{
     height: 40px;
     font-size: 16px;
     line-height: 24px;
+    vertical-align: sub;
 }
 
 .body-position-plan .servizio-block__link{
@@ -1087,12 +1088,20 @@ li{
 
 .mobile-block{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-right: auto;
 }
 
 .servizio-block__code-plan{
     margin-right: 90px;
+    padding: 0;
+    margin-top: -3px;
+}
+
+.adress-caption{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
 }
 
 /* Адаптив */
@@ -1107,6 +1116,10 @@ li{
 
     .section-adress{
         padding-top: 98px;
+    }
+
+    .sale__step-job:not(:last-child){
+        margin-right: 97px;
     }
 
     img{
@@ -1240,6 +1253,9 @@ li{
 
     .researches-btn{
         width: 144px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .section-info-text {
@@ -2357,6 +2373,17 @@ li{
     
     .header-section{
         padding-bottom: 102%;
+    }
+
+    .attention-text{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .servizio-block__code-plan{
+        margin-top: 0;
+        margin-bottom: -3px;
     }
 
 
